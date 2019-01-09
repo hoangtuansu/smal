@@ -3,7 +3,7 @@
 from abc import ABCMeta, abstractmethod
 import numpy as np
 import logging
-import basealgorithm as balg
+import base.basealgorithm as balg
 
 class TabuSearchManipulator(balg.BaseManipulator):
     __metaclass__ = ABCMeta
